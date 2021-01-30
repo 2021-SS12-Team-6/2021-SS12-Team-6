@@ -1,5 +1,7 @@
 node_modules/
-
 config.json
 .eslintrc.json
 .env
+# Ignores PyCharm project files
+/.idea
+/venv
