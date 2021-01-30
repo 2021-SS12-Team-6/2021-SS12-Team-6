@@ -1,0 +1,27 @@
+{
+  "name": "2021-ss12-team-6",
+  "version": "1.0.0",
+  "description": "team6 bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2021-SS12-Team-6/2021-SS12-Team-6.git"
+  },
+  "keywords": [
+    "accessibility",
+    "competition"
+  ],
+  "author": "team6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2021-SS12-Team-6/2021-SS12-Team-6/issues"
+  },
+  "homepage": "https://github.com/2021-SS12-Team-6/2021-SS12-Team-6#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
