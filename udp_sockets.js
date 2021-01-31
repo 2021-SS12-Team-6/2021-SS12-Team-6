@@ -1,11 +1,9 @@
-module.exports = async function sendRetrieveUDP(msg) {
+function sendRetrieveUDP(msg) {
     const PORT_NUMBER = 200;
     const HOST = 'localhost';
     var udp = require('dgram');
-    var buffer = require('buffer'); // Used to read and write to buffers for UDP
     var client = udp.createSocket('udp4'); // Creates UDP4 socket
-
-    var data = buffer.from(msg); // Converts msg into byte buffer
+    var data = Buffer.from(msg); // Converts msg into byte buffer
 
     // When retrieving messages
     client.on("message", (message, info) => {
