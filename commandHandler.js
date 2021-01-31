@@ -10,10 +10,9 @@ module.exports = function(message) {
     // extract command
     let command = message.content.split(" ").shift().substring(1).toLowerCase();
 
-    try {
+    if (command in commands) {
         commands[command](message);
-    }
-    catch {
+    } else {
         help(message);
     }
 };

@@ -1,4 +1,4 @@
-async function sendRetrieveUDP(msg) {
+module.exports = async function sendRetrieveUDP(msg) {
     const PORT_NUMBER = 200;
     const HOST = 'localhost';
     var udp = require('dgram');
