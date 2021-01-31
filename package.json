@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/2021-SS12-Team-6/2021-SS12-Team-6#readme",
   "dependencies": {
+    "directory-tree": "^2.2.5",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
   }
