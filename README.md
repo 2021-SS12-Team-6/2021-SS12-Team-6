@@ -11,11 +11,8 @@ Install Python packages:
 $ pip install -r requirements.txt
 ```
 
-##### Permissions
-Bot permissions that are enabled:
-
 ## Concept
-Our open source project encourages users to improve the project or customize their own fork of the project by adding new images/gifs to our ASL database with the bot's __!add__ command.  
+Our open source project encourages users to improve the project or customize their own fork of the project by adding new images/gifs to our ASL database with the bot's __!mASL__ command.  
 
 - script updates the ASL dictionary for the bot to use. 
 - bot's add command allows users to add images to the ASL Assets folder.
@@ -25,7 +22,7 @@ After adding the bot to your server (with the necessary permissions), there are 
 
 __!ASL__  
 __!help__
-__!add__
+__!myASL__
 
 
 Notes: 
