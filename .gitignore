@@ -5,3 +5,4 @@ config.json
 # Ignores PyCharm project files
 /.idea
 /venv
+.DS_store
