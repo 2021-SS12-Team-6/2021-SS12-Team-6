@@ -2,5 +2,5 @@
 module.exports = function(message) {
     // display bot info
 
-    message.channel.send("help");
+    message.channel.send("ASL bot -- help");
 }
