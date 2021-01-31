@@ -9,3 +9,7 @@ am, is, are, was, were
 Are you married
 
 hello john
+
+The boy threw the ball.
+
+The ball was thrown by the boy.
