@@ -8,15 +8,17 @@ const Discord = require('discord.js');
 // create a new Discord client
 const client = new Discord.Client();
 
-// when client is ready, run this code
-// this event will only trigger one time after logging in
+// import command handler
+const commandHandler = require('./commandHandler.js');
+
+// login to Discord with app's token
+client.login(process.env.TOKEN);
+
+// when client is ready, run this code once
 client.once('ready', () => {
     console.log('Ready 👍');
 });
 
-client.on('message', message => {
-    console.log(message.content);
-});
+// parse messages for commands
+client.on('message', commandHandler);
 
-// login to Discord with app's token
-client.login(process.env.TOKEN);
