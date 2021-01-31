@@ -21,7 +21,6 @@ Our open source project encourages users to improve the project or customize the
 After adding the bot to your server (with the necessary permissions), there are several commands that the bot can perform:
 
 __!ASL__  
-__!help__
 __!myASL__
 
 
