@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Concept
-Our open source project encourages users to improve the project or customize their own fork of the project by adding new images/gifs to our ASL database with the bot's __!mASL__ command.  
+Our open source project encourages users to improve the project or customize their own fork of the project by adding new images/gifs to our ASL database with the bot's __!myASL__ command.  
 
 - script updates the ASL dictionary for the bot to use. 
 - bot's add command allows users to add images to the ASL Assets folder.
